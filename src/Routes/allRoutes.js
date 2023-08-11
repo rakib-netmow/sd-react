@@ -5,6 +5,8 @@ import { Navigate } from "react-router-dom";
 // import DashboardAnalytics from "../pages/DashboardAnalytics";
 // import DashboardCrm from "../pages/DashboardCrm";
 import DashboardEcommerce from "../pages/DashboardEcommerce";
+import Home from "../pages/HomePage/Home";
+import Login from "../pages/Login/Login";
 
 // import DashboardCrypto from "../pages/DashboardCrypto";
 // import DashboardProject from "../pages/DashboardProject";
@@ -459,6 +461,8 @@ const publicRoutes = [
   // Authentication Page
   // { path: "/logout", component: <Logout /> },
   // { path: "/login", component: <Login /> },
+  { path: "/", component: <Home /> },
+  { path: "/login", component: <Login /> },
   // { path: "/forgot-password", component: <ForgetPasswordPage /> },
   // { path: "/register", component: <Register /> },
   //AuthenticationInner pages
