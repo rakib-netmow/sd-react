@@ -1,10 +1,11 @@
 import React from "react";
+import homeImg from "../../../assets/img/home-img.jpg";
 
 const HomeBody = () => {
   return (
     <div>
-      <section class="home-body">
-        <img src="assets/img/home-img.jpg" alt="Banner" />
+      <section class="home-body" style={{ width: "100%" }}>
+        <img style={{ width: "100%" }} src={homeImg} alt="Banner" />
       </section>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -155,14 +156,14 @@ const Login = () => {
                             </div>
 
                             <div class="mt-4">
-                              <a
-                                href="#addTeam"
+                              <Link
+                                to="#addTeam"
                                 class="btn btn-success w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#addTeam"
                               >
                                 Sign In
-                              </a>
+                              </Link>
                             </div>
 
                             <div class="mt-4 text-center">
@@ -203,13 +204,13 @@ const Login = () => {
                         <div class="mt-5 text-center">
                           <p class="mb-0">
                             Don't have an account ?{" "}
-                            <a
-                              href="register.php"
+                            <Link
+                              to="/Register"
                               class="fw-semibold text-primary text-decoration-underline"
                             >
                               {" "}
                               Signup
-                            </a>{" "}
+                            </Link>{" "}
                           </p>
                         </div>
                       </div>

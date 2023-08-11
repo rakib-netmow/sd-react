@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,25 +8,25 @@ const Header = () => {
         <div class="header-bottom-content">
           <a href="https://squaddeck.com/" class="logo">
             <img
-              src="https://squaddeck.com/assets/main/img/logo.png" // need img 
+              src="https://squaddeck.com/assets/main/img/logo.png" // need img
               alt="Squaddeck Logo"
             />
           </a>
           <nav class="main-nav">
             <ul class="nav-list">
               <li>
-                <a href="login.php" class="login-btn">
+                <Link to="/Login" class="login-btn">
                   <img
                     src="https://squaddeck.com/assets/main/img/login.png"
                     alt="Login"
                   />
                   <span>Login</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="register.php" class="btn-common btn-primary">
+                <Link to="/Register" class="btn-common btn-primary">
                   <span>Register</span>
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="book-demo.php" class="btn-common btn-secondary">
