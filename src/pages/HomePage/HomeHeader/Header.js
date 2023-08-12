@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
     <div class="header-bottom">
       <div class="container">
         <div class="header-bottom-content">
-          <a href="https://squaddeck.com/" class="logo">
+          <Link to="/" class="logo">
             <img
               src="https://squaddeck.com/assets/main/img/logo.png" // need img
-              alt="Squaddeck Logo"
+              alt="SquadDeck Logo"
             />
-          </a>
+          </Link>
           <nav class="main-nav">
             <ul class="nav-list">
               <li>
@@ -24,14 +25,14 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Register" class="btn-common btn-primary">
+                <Link to="/Register" class="btn-common btn-hover btn-primary">
                   <span>Register</span>
                 </Link>
               </li>
               <li>
-                <a href="book-demo.php" class="btn-common btn-secondary">
+                <Link to="" class="btn-common  btn-secondary">
                   <span>Book A Demo</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

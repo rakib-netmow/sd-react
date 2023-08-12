@@ -1,4 +1,6 @@
 import React from "react";
+import mainLogo from "../../assets/img/main_logo.png";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -18,17 +20,13 @@ const Register = () => {
                         <div class="bg-overlay"></div>
                         <div class="position-relative h-100 d-flex flex-column">
                           <div class="mb-4">
-                            <a href="index.php" class="d-block">
-                              <img
-                                src="assets/img/main_logo.png"
-                                alt=""
-                                height="30"
-                              />
-                            </a>
+                            <Link to="/" class="d-block">
+                              <img src={mainLogo} alt="" height="30" />
+                            </Link>
                           </div>
                           <div class="mt-auto">
                             <div class="mb-3">
-                              <i class="ri-double-quotes-l display-4 text-success"></i>
+                              <i class="ri-double-quotes-l display-4 quote-color"></i>
                             </div>
 
                             <div
@@ -171,12 +169,12 @@ const Register = () => {
                             </div>
 
                             <div class="mt-4">
-                              <a
-                                href="email-verification.php"
+                              <Link
+                                to="email-verification.php"
                                 class="btn btn-success w-100"
                               >
                                 Register
-                              </a>
+                              </Link>
                             </div>
                           </form>
                         </div>
