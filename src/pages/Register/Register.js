@@ -11,6 +11,7 @@ const Register = () => {
   const [step, setStep] = useState(1);
   const [userInfo, setUserInfo] = useState({});
   const [userEmail, setUserEmail] = useState("");
+  console.log(userInfo);
   return (
     <>
       {/* <!-- auth-page wrapper --> */}

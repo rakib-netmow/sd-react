@@ -4,6 +4,12 @@ import "../../assets/css/app.css";
 import mainlogo from "../../assets/img/main_logo.png";
 
 const Login = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const userName = e.terget[0].value;
+    const password = e.terget[0].value;
+    console.log(userName, password);
+  };
   return (
     <>
       {/* <!-- auth-page wrapper --> */}
@@ -95,7 +101,7 @@ const Login = () => {
                         </div>
 
                         <div class="mt-4">
-                          <form action="index.php">
+                          <form onSubmit={handleSubmit}>
                             <div class="mb-3">
                               <label for="username" class="form-label">
                                 Username
@@ -108,14 +114,11 @@ const Login = () => {
                               />
                             </div>
 
-                            <div class="mb-3">
-                              <div class="float-end">
-                                <a
-                                  href="forget-password.php"
-                                  class="text-muted"
-                                >
+                            <div class="mb-3 ">
+                              <div class="float-end ">
+                                <Link to="" class="text-muted text-primary fw-semibold text-decoration-underline ">
                                   Forgot password?
-                                </a>
+                                </Link>
                               </div>
                               <label class="form-label" for="password-input">
                                 Password
@@ -224,9 +227,9 @@ const Login = () => {
           </div>
 
           <div
-            class="modal fade"
+            className="modal fade"
             id="addTeam"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="addTrainersLabel"
             aria-modal="true"
           >

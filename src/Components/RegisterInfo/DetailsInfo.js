@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const DetailsInfo = ({ userInfo, setUserInfo }) => {
-  //   const [organizationName, setOrganizationName] = useState("");
-  //   const [subDomain, setSubDomain] = useState("");
-  //   const [selectSports, setSelectSports] = useState("");
-  //   const [phone, setPhone] = useState("");
-  //   const [location, setLocation] = useState("");
+  const [organizationName, setOrganizationName] = useState("");
+  const [subDomain, setSubDomain] = useState("");
+  const [selectSports, setSelectSports] = useState("");
+  const [phone, setPhone] = useState("");
+  const [location, setLocation] = useState("");
+
+  const handleSportsCategoryChange = (e) => {
+    setSelectSports(e.target.value);
+  };
+  const handleLocationCategoryChange = (e) => {
+    setLocation(e.target.value);
+  };
+
+  const handleUserAllDataToRegister = () => {
+    setUserInfo({
+      ...userInfo,
+      organizationName,
+      subDomain,
+      phone,
+      selectSports,
+      location,
+    });
+  };
+
+  console.log("Updated userInfo:",userInfo );
+
   return (
     <>
       <div class="col-lg-6 ">
@@ -23,7 +44,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   Organisation name <span class="text-danger">*</span>
                 </label>
                 <input
-                  //   onChange={(e) => setOrganizationName(e.target.value)}
+                  onChange={(e) => setOrganizationName(e.target.value)}
                   type="text"
                   class="form-control"
                   id="username"
@@ -40,7 +61,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   <span class="text-danger">*</span>
                 </label>
                 <input
-                  //   onChange={(e) => setSubDomain(e.target.value)}
+                  onChange={(e) => setSubDomain(e.target.value)}
                   type="text"
                   class="form-control"
                   id="username"
@@ -51,7 +72,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
               </div>
 
               <div class="mb-3">
-                <label for="category" class="form-label">
+                <label htmlFor="category" class="form-label">
                   Select Sports <span class="text-danger">*</span>
                 </label>
                 <select
@@ -59,8 +80,9 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   id="category"
                   class="form-select"
                   required
+                  onChange={handleSportsCategoryChange}
                 >
-                  <option selected>Basketball</option>
+                  <option defaultValue>Basketball</option>
                   <option>Cricket</option>
                   <option>Football</option>
                   <option>Rugby</option>
@@ -73,7 +95,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   Work Phone <span class="text-danger">*</span>
                 </label>
                 <input
-                  //   onChange={(e) => setPhone(e.target.value)}
+                  onChange={(e) => setPhone(e.target.value)}
                   type="tel"
                   class="form-control"
                   id="phone"
@@ -92,8 +114,9 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   id="location"
                   class="form-select"
                   required
+                  onChange={handleLocationCategoryChange}
                 >
-                  <option selected>Australia</option>
+                  <option defaultValue>Australia</option>
                   <option>Bangladesh</option>
                   <option>United States</option>
                   <option>United Kingdom</option>
@@ -101,7 +124,11 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
               </div>
 
               <div class="mt-4">
-                <Link to="/dashboard" class="btn btn-success w-100">
+                <Link
+                  onClick={handleUserAllDataToRegister}
+                  to="/dashboard"
+                  class="btn btn-success w-100"
+                >
                   Submit
                 </Link>
               </div>

@@ -15,6 +15,14 @@ const InitialInfo = ({ setStep, step, setUserInfo, userInfo }) => {
       password,
       confirm_password: confirmPassword,
     });
+
+    console.log("Updated userInfo:", {
+      ...userInfo,
+      email,
+      password,
+      confirm_password: confirmPassword,
+    });
+
     setStep(step + 1);
   };
 
