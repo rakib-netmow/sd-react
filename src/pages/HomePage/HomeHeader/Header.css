@@ -15,7 +15,7 @@
   position: relative;
   z-index: 99;
 }
-.container {
+.home-container {
   max-width: 117rem;
   margin: 0 auto;
   padding: 0 14.5rem;
@@ -96,13 +96,13 @@ img {
   height: auto;
 }
 
-.btn-primary {
+.nav-btn-primary {
   background-color: transparent;
   color: var(--color--primary);
   border: 0.1rem solid var(--color--primary);
   transition: all 0.3s ease;
 }
-.btn-common {
+.nav-btn-common {
   box-shadow: 0px 2px 8px rgba(22, 42, 115, 0.2);
   padding: 0.4rem 0.8rem;
   min-width: 6.2rem;

@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div class="header-bottom">
-      <div class="container">
+      <div class="home-container">
         <div class="header-bottom-content">
           <Link to="/" class="logo">
             <img
@@ -25,12 +25,12 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Register" class="btn-common btn-hover btn-primary">
+                <Link to="/Register" class="nav-btn-common btn-hover nav-btn-primary">
                   <span>Register</span>
                 </Link>
               </li>
               <li>
-                <Link to="" class="btn-common  btn-secondary">
+                <Link to="" class="nav-btn-common  btn-secondary">
                   <span>Book A Demo</span>
                 </Link>
               </li>

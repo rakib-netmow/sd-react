@@ -41,7 +41,7 @@
 
 .shepherd-button{
     &.btn-success:not(:disabled):hover{
-        background: darken($success, 2.5%);
+        background: red;
         color: $white;
     }
 

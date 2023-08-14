@@ -10250,8 +10250,8 @@ button.gridjs-sort-desc {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
+  -webkit-print-print--color-adjust: exact;
+  print-print--color-adjust: exact;
 }
 .gridjs-td .gridjs-checkbox[type="checkbox"] {
   border-radius: 0.25em;

@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import mainLogo from "../../assets/img/main_logo.png";
 import { Link } from "react-router-dom";
+import "../../assets/css/app.css";
+import DetailsInfo from "../../Components/RegisterInfo/DetailsInfo";
+import InitialInfo from "../../Components/RegisterInfo/InitialInfo";
+import EmailOtp from "./../../Components/RegisterInfo/EmailOtp";
+import EmailDone from "../../Components/RegisterInfo/EmailDone";
 
 const Register = () => {
+  const [step, setStep] = useState(1);
+  const [userInfo, setUserInfo] = useState({});
+  const [userEmail, setUserEmail] = useState("");
   return (
-    <div>
+    <>
       {/* <!-- auth-page wrapper --> */}
-      <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+      <div class="auth-page-wrapper auth-bg-cover d-flex justify-content-center align-items-center min-vh-100 ">
         <div class="bg-overlay"></div>
         {/* <!-- auth-page content --> */}
-        <div class="auth-page-content overflow-hidden pt-lg-5">
+        <div class="auth-page-content overflow-hidden ">
           <div class="container">
-            <div class="row">
+            <div class="row mx-5">
               <div class="col-lg-12">
-                <div class="card overflow-hidden m-0">
+                <div class="card overflow-hidden m-5">
                   <div class="row justify-content-center g-0">
                     <div class="col-lg-6">
                       <div class="p-lg-5 p-4 auth-one-bg h-100">
@@ -30,7 +38,7 @@ const Register = () => {
                             </div>
 
                             <div
-                              id="qoutescarouselIndicators"
+                              id="quotesCarouselIndicators"
                               class="carousel slide"
                               data-bs-ride="carousel"
                             >
@@ -82,104 +90,31 @@ const Register = () => {
                         </div>
                       </div>
                     </div>
-
-                    <div class="col-lg-6">
-                      <div class="p-lg-5 p-4">
-                        <div>
-                          <h5 class="text-primary">Register Account</h5>
-                          <p class="text-muted">
-                            Get your Free SquadDeck account now.
-                          </p>
-                        </div>
-
-                        <div class="mt-4">
-                          <form
-                            class="needs-validation"
-                            novalidate
-                            action="index.php"
-                          >
-                            <div class="mb-3">
-                              <label for="useremail" class="form-label">
-                                Email <span class="text-danger">*</span>
-                              </label>
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="useremail"
-                                placeholder="Enter email address"
-                                required
-                              />
-                              <div class="invalid-feedback">
-                                Please enter email
-                              </div>
-                            </div>
-
-                            <div class="mb-3">
-                              <label class="form-label" for="password-input">
-                                Password
-                              </label>
-                              <div class="position-relative auth-pass-inputgroup">
-                                <input
-                                  type="password"
-                                  class="form-control pe-5 password-input"
-                                  onpaste="return false"
-                                  placeholder="Enter password"
-                                  id="password-input"
-                                  aria-describedby="passwordInput"
-                                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                                  required
-                                />
-                                <button
-                                  class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
-                                  type="button"
-                                  id="password-addon"
-                                >
-                                  <i class="ri-eye-fill align-middle"></i>
-                                </button>
-                                <div class="invalid-feedback">
-                                  Please enter password
-                                </div>
-                              </div>
-                            </div>
-                            <div class="mb-3">
-                              <label class="form-label" for="password-input">
-                                Confirm Password
-                              </label>
-                              <div class="position-relative auth-pass-inputgroup">
-                                <input
-                                  type="password"
-                                  class="form-control pe-5 password-input"
-                                  onpaste="return false"
-                                  placeholder="Enter password"
-                                  id="password-input"
-                                  aria-describedby="passwordInput"
-                                  required
-                                />
-                                <button
-                                  class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
-                                  type="button"
-                                  id="password-addon"
-                                >
-                                  <i class="ri-eye-fill align-middle"></i>
-                                </button>
-                                <div class="invalid-feedback">
-                                  Please confirm your password
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="mt-4">
-                              <Link
-                                to="email-verification.php"
-                                class="btn btn-success w-100"
-                              >
-                                Register
-                              </Link>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
+                    {step === 1 && (
+                      <InitialInfo
+                        setUserInfo={setUserInfo}
+                        userInfo={userInfo}
+                        step={step}
+                        setStep={setStep}
+                        setUserEmail={setUserEmail}
+                      />
+                    )}
+                    {step === 2 && (
+                      <EmailOtp
+                        userEmail={userEmail}
+                        step={step}
+                        setStep={setStep}
+                      />
+                    )}
+                    {step === 3 && <EmailDone step={step} setStep={setStep} />}
+                    {step === 4 && (
+                      <DetailsInfo
+                        userInfo={userInfo}
+                        setUserInfo={setUserInfo}
+                        step={step}
+                        setStep={setStep}
+                      />
+                    )}
                   </div>
                 </div>
                 {/* <!-- end card --> */}
@@ -214,7 +149,7 @@ const Register = () => {
         {/* <!-- end Footer --> */}
       </div>
       {/* <!-- end auth-page-wrapper --> */}
-    </div>
+    </>
   );
 };
 

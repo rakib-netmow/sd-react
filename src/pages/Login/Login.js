@@ -1,36 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../assets/css/app.css";
+import mainlogo from "../../assets/img/main_logo.png";
 
 const Login = () => {
   return (
-    <div>
+    <>
       {/* <!-- auth-page wrapper --> */}
-      <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+      <div class="auth-page-wrapper auth-bg-cover d-flex justify-content-center align-items-center min-vh-100">
         <div class="bg-overlay"></div>
         {/* <!-- auth-page content --> */}
-        <div class="auth-page-content overflow-hidden pt-lg-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
+        <div class="auth-page-content overflow-hidden mx-5 pt-5 ">
+          <div class="container ">
+            <div class="row mx-5 ">
+              <div class="col-lg-12 ">
                 <div class="card overflow-hidden">
-                  <div class="row g-0">
+                  <div class="row justify-content-center g-0">
                     <div class="col-lg-6">
                       <div class="p-lg-5 p-4 auth-one-bg h-100">
-                        <div class="bg-overlay"></div>
+                        <div class="bg-overlay "></div>
                         <div class="position-relative h-100 d-flex flex-column">
                           <div class="mb-4">
-                            <a href="index.php" class="d-block">
-                              <img
-                                src="assets/img/main_logo.png"
-                                alt=""
-                                height="30"
-                              />
+                            <a href="/dashboard" class="d-block">
+                              <img src={mainlogo} alt="" height="30" />
                             </a>
                           </div>
                           <div class="mt-auto">
                             <div class="mb-3">
-                              +
-                              <i class="ri-double-quotes-l display-4 text-success"></i>
+                              <i class="ri-double-quotes-l display-4 quote-color"></i>
                             </div>
 
                             <div
@@ -171,10 +168,10 @@ const Login = () => {
                                 <h5 class="fs-13 mb-4 title">Sign In with</h5>
                               </div>
 
-                              <div>
+                              <div class="social-icons">
                                 <button
                                   type="button"
-                                  class="btn btn-primary btn-icon waves-effect waves-light"
+                                  class="btn btn-primary btn-icon waves-effect waves-light "
                                 >
                                   <i class="ri-facebook-fill fs-16"></i>
                                 </button>
@@ -342,7 +339,7 @@ const Login = () => {
           {/* <!-- end Footer --> */}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import { Card, CardBody, CardHeader, Col, Row } from "reactstrap";
-import { RevenueCharts } from "./DashboardEcommerceCharts";
+import { Card, CardHeader, Col, Row } from "reactstrap";
 import CountUp from "react-countup";
 import { useSelector, useDispatch } from "react-redux";
 import { getRevenueChartsData } from "../../slices/thunks";
