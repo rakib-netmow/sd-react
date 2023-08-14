@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const DetailsInfo = ({ userInfo, setUserInfo }) => {
-    const [organizationName, setOrganizationName] = useState('')
-    const [subDomain, setsubDomain] = useState('')
-    const [organizationName, setOrganizationName] = useState('')
+  //   const [organizationName, setOrganizationName] = useState("");
+  //   const [subDomain, setSubDomain] = useState("");
+  //   const [selectSports, setSelectSports] = useState("");
+  //   const [phone, setPhone] = useState("");
+  //   const [location, setLocation] = useState("");
   return (
     <>
       <div class="col-lg-6 ">
@@ -21,8 +23,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   Organisation name <span class="text-danger">*</span>
                 </label>
                 <input
-                  onChange={(e) => setEmail(e.target.value)}
-
+                  //   onChange={(e) => setOrganizationName(e.target.value)}
                   type="text"
                   class="form-control"
                   id="username"
@@ -39,6 +40,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   <span class="text-danger">*</span>
                 </label>
                 <input
+                  //   onChange={(e) => setSubDomain(e.target.value)}
                   type="text"
                   class="form-control"
                   id="username"
@@ -71,6 +73,7 @@ const DetailsInfo = ({ userInfo, setUserInfo }) => {
                   Work Phone <span class="text-danger">*</span>
                 </label>
                 <input
+                  //   onChange={(e) => setPhone(e.target.value)}
                   type="tel"
                   class="form-control"
                   id="phone"
