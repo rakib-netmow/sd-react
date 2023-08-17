@@ -116,7 +116,10 @@ const Login = () => {
 
                             <div class="mb-3 ">
                               <div class="float-end ">
-                                <Link to="" class="text-muted text-primary fw-semibold text-decoration-underline ">
+                                <Link
+                                  to=""
+                                  class="text-muted text-primary fw-semibold text-decoration-underline "
+                                >
                                   Forgot password?
                                 </Link>
                               </div>
