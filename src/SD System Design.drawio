@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T09:53:12.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CoXX3o1m3jAGLS17Ta5S" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T10:16:24.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sjfpIm0pv4wqdeOis9sb" version="21.7.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1687" dy="2022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,23 +378,20 @@
         <mxCell id="0Mfy_nypwx77Hd2TMswc-220" value="sidebar" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#CC0066;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-231">
           <mxGeometry y="40.25" width="48" height="7.16" as="geometry" />
         </mxCell>
-        <mxCell id="0Mfy_nypwx77Hd2TMswc-125" value="&lt;span style=&quot;&quot;&gt;header&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="691" y="1382" width="49" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="0Mfy_nypwx77Hd2TMswc-127" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.git_repository;" vertex="1" parent="1">
-          <mxGeometry x="698.0799999999999" y="1351" width="23.85" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="0Mfy_nypwx77Hd2TMswc-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-125" target="0Mfy_nypwx77Hd2TMswc-125">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715.5" y="1394" as="sourcePoint" />
+            <mxPoint x="715.5" y="1394" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-123">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="136" y="1359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Mfy_nypwx77Hd2TMswc-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-123" target="0Mfy_nypwx77Hd2TMswc-127">
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-123">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435.3499999999999" y="1183" as="targetPoint" />
+            <mxPoint x="710.0833333333333" y="1351.0685547908943" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-237" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;website&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;visit website&amp;nbsp;&lt;/li&gt;&lt;li&gt;chose theme&amp;nbsp;&lt;/li&gt;&lt;li&gt;website pages&lt;/li&gt;&lt;li&gt;create notices&amp;nbsp;&lt;/li&gt;&lt;li&gt;blogs&lt;/li&gt;&lt;li&gt;eCommerce&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;guardians&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;add guardians&lt;/li&gt;&lt;li&gt;all guardians&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;player&lt;/li&gt;&lt;ul&gt;&lt;li&gt;add player&lt;/li&gt;&lt;li&gt;all player&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;teams&lt;/li&gt;&lt;ul&gt;&lt;li&gt;add new team&lt;/li&gt;&lt;li&gt;team management&lt;/li&gt;&lt;li&gt;managers&lt;/li&gt;&lt;li&gt;trainers&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;events&lt;/li&gt;&lt;ul&gt;&lt;li&gt;seasonal games&lt;/li&gt;&lt;li&gt;training schedule&lt;/li&gt;&lt;li&gt;game schedule&lt;/li&gt;&lt;li&gt;special event&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;class / attendance&lt;/li&gt;&lt;li&gt;sponsors&lt;/li&gt;&lt;li&gt;chat&lt;/li&gt;&lt;li&gt;subscriptions&lt;/li&gt;&lt;ul&gt;&lt;li&gt;player subscriptions&lt;/li&gt;&lt;li&gt;seasonal&amp;nbsp; subscriptions&lt;/li&gt;&lt;li&gt;game subscriptions&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;reports&lt;/li&gt;&lt;li&gt;charges&lt;/li&gt;&lt;li&gt;settings&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -998,6 +995,11 @@
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-217" value="&amp;gt; player profile component&lt;br&gt;&amp;gt; guardian profile component&lt;br&gt;&amp;gt; team profile component&lt;br&gt;&amp;gt; charges component&lt;br&gt;&amp;gt; upgrade component&amp;nbsp;&lt;br&gt;&amp;gt; search component&lt;br&gt;&amp;gt; cart component&amp;nbsp;&lt;br&gt;&amp;gt; fullscreen component&amp;nbsp;&lt;br&gt;&amp;gt; dark mood component&amp;nbsp;&lt;br&gt;&amp;gt; notification component&amp;nbsp;&lt;br&gt;&amp;gt; profile panel component&amp;nbsp;&lt;br&gt;&amp;gt; profile component&amp;nbsp;&lt;br&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-441">
           <mxGeometry y="40" width="250" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-442" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;HEADER&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="671" y="1368" width="98" height="22" as="geometry">
+            <mxRectangle x="461" y="1614" width="200" height="224" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
