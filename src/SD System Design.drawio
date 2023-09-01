@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T07:06:46.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NUp4qYg86XmVKv6eQKSE" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T08:55:08.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vDeArq8U8vJX2r7o93mq" version="21.7.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1024" dy="1660" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -865,8 +865,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Mfy_nypwx77Hd2TMswc-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-396" target="0Mfy_nypwx77Hd2TMswc-399">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0Mfy_nypwx77Hd2TMswc-399">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="5602" as="sourcePoint" />
+            <mxPoint x="344" y="5599" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="292" y="5602" />
+              <mxPoint x="295" y="5602" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-404" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Mfy_nypwx77Hd2TMswc-396" target="0Mfy_nypwx77Hd2TMswc-398">
           <mxGeometry relative="1" as="geometry">
@@ -886,6 +893,30 @@
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-399" value="alert" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="363" y="5595.43" width="32" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-405" value="profi" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="673.9957142857145" y="5757.00142857143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-406" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Profile panel:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="27" y="5788" width="122" height="24.43" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-408" value="profile" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="5950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-409" value="messages" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="171" y="5950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-410" value="help" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="5950" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-412" value="settings" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="629" y="5950" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-413" value="logout" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="5950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-414" value="charges" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="5951.17" width="51.5" height="17.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
