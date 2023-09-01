@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T10:16:24.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sjfpIm0pv4wqdeOis9sb" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T10:28:11.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gizMQVJhqAveQakEbk1Q" version="21.7.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1195" dy="1753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
+    <mxGraphModel dx="382" dy="1309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#b0b0b0" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,10 +355,10 @@
           <mxGeometry y="15" width="88" height="23" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-212" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;Common lib component&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="16" y="39" width="241" height="20.67" as="geometry" />
+          <mxGeometry x="16" y="129" width="241" height="20.67" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-213" value="&amp;gt; success modal&lt;br&gt;&amp;gt; success modal msg&amp;nbsp;&lt;br&gt;&amp;gt; select modal&lt;br&gt;&amp;gt; change password&lt;br&gt;&amp;gt; invoice page&lt;br&gt;&amp;gt; view action (list)&lt;br&gt;&amp;gt; business settings &amp;amp; branding form&lt;br&gt;&amp;gt; currency settings form&lt;br&gt;&amp;gt; domain &amp;amp; DNS management form&amp;nbsp;&lt;br&gt;&amp;gt; domain &amp;amp; DNS management list&lt;br&gt;&amp;gt; SMTP &amp;amp; email form&lt;br&gt;&amp;gt; profile form&lt;br&gt;&amp;gt; save and don&#39;t save modal&amp;nbsp;&lt;br&gt;&amp;gt; payment settings form&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;stripe form&lt;/li&gt;&lt;li&gt;paypal form&amp;nbsp;&lt;/li&gt;&lt;li&gt;SSLCOMMERZ form&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="16" y="72" width="198" height="269" as="geometry" />
+          <mxGeometry x="16" y="162" width="198" height="269" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-218" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="268.85" y="1142" width="186" height="110" as="geometry" />
@@ -979,7 +979,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-440" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="25" y="461" width="238.85000000000002" height="258.38" as="geometry" />
+          <mxGeometry x="25" y="551" width="238.85000000000002" height="258.38" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-214" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;Common Component&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-440">
           <mxGeometry width="218" height="20.67" as="geometry" />
@@ -988,7 +988,7 @@
           <mxGeometry y="23" width="238.85" height="235.38" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-441" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="443" y="26" width="255" height="286" as="geometry" />
+          <mxGeometry x="443" y="116" width="255" height="286" as="geometry" />
         </mxCell>
         <mxCell id="0Mfy_nypwx77Hd2TMswc-216" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;Common main Component&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-441">
           <mxGeometry width="255" height="30" as="geometry" />
@@ -1000,6 +1000,15 @@
           <mxGeometry x="671" y="1368" width="98" height="22" as="geometry">
             <mxRectangle x="461" y="1614" width="200" height="224" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-446" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="276.14" y="12" width="144.86" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-445" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-446">
+          <mxGeometry width="143.86" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="0Mfy_nypwx77Hd2TMswc-443" value="&lt;b&gt;&lt;font color=&quot;#99004d&quot;&gt;all types of component&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0Mfy_nypwx77Hd2TMswc-446">
+          <mxGeometry x="3.8600000000000136" y="3" width="141" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
