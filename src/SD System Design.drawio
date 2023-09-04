@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T05:28:17.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oX6yKx-VIqdTkS0knpW3" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T05:50:13.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oNieuK2yoT0IOle6yyxl" version="21.7.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1147" dy="1700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1854,8 +1854,26 @@
         <mxCell id="5WOfhGpYFM9ZsoI5hYG5-246" value="same as attendance list" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585.5300000000001" y="14061.52" width="140.17" height="24.17" as="geometry" />
         </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.409;entryY=-0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WOfhGpYFM9ZsoI5hYG5-250" target="5WOfhGpYFM9ZsoI5hYG5-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.456;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WOfhGpYFM9ZsoI5hYG5-250" target="5WOfhGpYFM9ZsoI5hYG5-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WOfhGpYFM9ZsoI5hYG5-250" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Sponsors :&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="15.280000000000001" y="14316" width="96.5" height="31.83" as="geometry" />
+        </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-252" value="all sponsors list with action" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12.999999999999979" y="14379" width="123.2" height="32.4" as="geometry" />
+        </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WOfhGpYFM9ZsoI5hYG5-253" target="5WOfhGpYFM9ZsoI5hYG5-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-253" value="add new sponsor" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="209.62000000000003" y="14383.800000000001" width="101.2" height="22.8" as="geometry" />
+        </mxCell>
+        <mxCell id="5WOfhGpYFM9ZsoI5hYG5-254" value="add new form" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220.42" y="14427" width="79.6" height="24.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
